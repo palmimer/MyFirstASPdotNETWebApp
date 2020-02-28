@@ -1,322 +1,365 @@
 [
   {
-    "city": "Bhadrapur",
-    "email": "wmortimer0@narod.ru",
-    "first_name": "Wildon",
-    "id": 1,
-    "last_name": "Mortimer",
-    "username": "Ybynplu34"
+    "Id": 1,
+    "Username": "Ybynplu34",
+    "First_name": "Wildon",
+    "Last_name": "Mortimer",
+    "Email": "wmortimer0@narod.ru",
+    "City": "Bhadrapur",
+    "Ratings": [
+      5,
+      3
+    ]
   },
   {
-    "id": 2,
-    "username": "YupxmaW84",
-    "first_name": "Sher",
-    "last_name": "Stitfall",
-    "email": "sstitfall1@amazon.co.jp",
-    "city": "Tân Châu"
+    "Id": 2,
+    "Username": "YupxmaW84",
+    "First_name": "Sher",
+    "Last_name": "Stitfall",
+    "Email": "sstitfall1@amazon.co.jp",
+    "City": "T\u00E2n Ch\u00E2u",
+    "Ratings": null
   },
   {
-    "id": 3,
-    "username": "FaaeegB58",
-    "first_name": "Mattias",
-    "last_name": "Doggrell",
-    "email": "mdoggrell2@surveymonkey.com",
-    "city": "Santiago"
+    "Id": 3,
+    "Username": "FaaeegB58",
+    "First_name": "Mattias",
+    "Last_name": "Doggrell",
+    "Email": "mdoggrell2@surveymonkey.com",
+    "City": "Santiago",
+    "Ratings": null
   },
   {
-    "id": 4,
-    "username": "Ukkjela72",
-    "first_name": "Lynnet",
-    "last_name": "Bradshaw",
-    "email": "lbradshaw3@bbb.org",
-    "city": "Mannheim"
+    "Id": 4,
+    "Username": "Ukkjela72",
+    "First_name": "Lynnet",
+    "Last_name": "Bradshaw",
+    "Email": "lbradshaw3@bbb.org",
+    "City": "Mannheim",
+    "Ratings": null
   },
   {
-    "id": 5,
-    "username": "VmrnuwX60",
-    "first_name": "Yolane",
-    "last_name": "Tuppeny",
-    "email": "ytuppeny4@gnu.org",
-    "city": "Caieiras"
+    "Id": 5,
+    "Username": "VmrnuwX60",
+    "First_name": "Yolane",
+    "Last_name": "Tuppeny",
+    "Email": "ytuppeny4@gnu.org",
+    "City": "Caieiras",
+    "Ratings": null
   },
   {
-    "id": 6,
-    "username": "JtrnykI07",
-    "first_name": "Lyndsey",
-    "last_name": "Berkelay",
-    "email": "lberkelay5@ed.gov",
-    "city": "Sighnaghi"
+    "Id": 6,
+    "Username": "JtrnykI07",
+    "First_name": "Lyndsey",
+    "Last_name": "Berkelay",
+    "Email": "lberkelay5@ed.gov",
+    "City": "Sighnaghi",
+    "Ratings": null
   },
   {
-    "id": 7,
-    "username": "Ogwcsji09",
-    "first_name": "Bryn",
-    "last_name": "Caudell",
-    "email": "bcaudell6@freewebs.com",
-    "city": "Al Qiţena"
+    "Id": 7,
+    "Username": "Ogwcsji09",
+    "First_name": "Bryn",
+    "Last_name": "Caudell",
+    "Email": "bcaudell6@freewebs.com",
+    "City": "Al Qi\u0163ena",
+    "Ratings": null
   },
   {
-    "id": 8,
-    "username": "Ybxwfok97",
-    "first_name": "Kora",
-    "last_name": "Blackler",
-    "email": "kblackler7@nyu.edu",
-    "city": "Katoro"
+    "Id": 8,
+    "Username": "Ybxwfok97",
+    "First_name": "Kora",
+    "Last_name": "Blackler",
+    "Email": "kblackler7@nyu.edu",
+    "City": "Katoro",
+    "Ratings": null
   },
   {
-    "id": 9,
-    "username": "Hwyaha778",
-    "first_name": "Ebony",
-    "last_name": "Seabrocke",
-    "email": "eseabrocke8@guardian.co.uk",
-    "city": "Çalxanqala"
+    "Id": 9,
+    "Username": "Hwyaha778",
+    "First_name": "Ebony",
+    "Last_name": "Seabrocke",
+    "Email": "eseabrocke8@guardian.co.uk",
+    "City": "\u00C7alxanqala",
+    "Ratings": null
   },
   {
-    "id": 10,
-    "username": "MnfteqY78",
-    "first_name": "Salmon",
-    "last_name": "Jacquet",
-    "email": "sjacquet9@google.fr",
-    "city": "Is"
+    "Id": 10,
+    "Username": "MnfteqY78",
+    "First_name": "Salmon",
+    "Last_name": "Jacquet",
+    "Email": "sjacquet9@google.fr",
+    "City": "Is",
+    "Ratings": null
   },
   {
-    "id": 11,
-    "username": "Rhcjsc075",
-    "first_name": "Martyn",
-    "last_name": "Butt Gow",
-    "email": "mbuttgowa@noaa.gov",
-    "city": "Kurzętnik"
+    "Id": 11,
+    "Username": "Rhcjsc075",
+    "First_name": "Martyn",
+    "Last_name": "Butt Gow",
+    "Email": "mbuttgowa@noaa.gov",
+    "City": "Kurz\u0119tnik",
+    "Ratings": null
   },
   {
-    "id": 12,
-    "username": "NvofmiE61",
-    "first_name": "Cristabel",
-    "last_name": "Sutlieff",
-    "email": "csutlieffb@simplemachines.org",
-    "city": "Dongchen"
+    "Id": 12,
+    "Username": "NvofmiE61",
+    "First_name": "Cristabel",
+    "Last_name": "Sutlieff",
+    "Email": "csutlieffb@simplemachines.org",
+    "City": "Dongchen",
+    "Ratings": null
   },
   {
-    "id": 13,
-    "username": "WgwrbeF20",
-    "first_name": "Jacquenetta",
-    "last_name": "Ronayne",
-    "email": "jronaynec@toplist.cz",
-    "city": "Takahashi"
+    "Id": 13,
+    "Username": "WgwrbeF20",
+    "First_name": "Jacquenetta",
+    "Last_name": "Ronayne",
+    "Email": "jronaynec@toplist.cz",
+    "City": "Takahashi",
+    "Ratings": null
   },
   {
-    "id": 14,
-    "username": "Pkzqvag97",
-    "first_name": "Astra",
-    "last_name": "Burgwin",
-    "email": "aburgwind@yolasite.com",
-    "city": "Bandera"
+    "Id": 14,
+    "Username": "Pkzqvag97",
+    "First_name": "Astra",
+    "Last_name": "Burgwin",
+    "Email": "aburgwind@yolasite.com",
+    "City": "Bandera",
+    "Ratings": null
   },
   {
-    "id": 15,
-    "username": "Lvgcpsw44",
-    "first_name": "Kiri",
-    "last_name": "Josephs",
-    "email": "kjosephse@bloglovin.com",
-    "city": "San Diego"
+    "Id": 15,
+    "Username": "Lvgcpsw44",
+    "First_name": "Kiri",
+    "Last_name": "Josephs",
+    "Email": "kjosephse@bloglovin.com",
+    "City": "San Diego",
+    "Ratings": null
   },
   {
-    "id": 16,
-    "username": "Frgsjhp85",
-    "first_name": "Demetrius",
-    "last_name": "Lindenbluth",
-    "email": "dlindenbluthf@delicious.com",
-    "city": "Gotse Delchev"
+    "Id": 16,
+    "Username": "Frgsjhp85",
+    "First_name": "Demetrius",
+    "Last_name": "Lindenbluth",
+    "Email": "dlindenbluthf@delicious.com",
+    "City": "Gotse Delchev",
+    "Ratings": null
   },
   {
-    "id": 17,
-    "username": "Agjiumd23",
-    "first_name": "Laurens",
-    "last_name": "Aldwinckle",
-    "email": "laldwinckleg@pinterest.com",
-    "city": "Tai Po"
+    "Id": 17,
+    "Username": "Agjiumd23",
+    "First_name": "Laurens",
+    "Last_name": "Aldwinckle",
+    "Email": "laldwinckleg@pinterest.com",
+    "City": "Tai Po",
+    "Ratings": null
   },
   {
-    "id": 18,
-    "username": "DqdujiL64",
-    "first_name": "Yolande",
-    "last_name": "Wormstone",
-    "email": "ywormstoneh@paypal.com",
-    "city": "Tunduma"
+    "Id": 18,
+    "Username": "DqdujiL64",
+    "First_name": "Yolande",
+    "Last_name": "Wormstone",
+    "Email": "ywormstoneh@paypal.com",
+    "City": "Tunduma",
+    "Ratings": null
   },
   {
-    "id": 19,
-    "username": "Zznvyrc36",
-    "first_name": "Sidney",
-    "last_name": "Guerre",
-    "email": "sguerrei@unblog.fr",
-    "city": "Catumbela"
+    "Id": 19,
+    "Username": "Zznvyrc36",
+    "First_name": "Sidney",
+    "Last_name": "Guerre",
+    "Email": "sguerrei@unblog.fr",
+    "City": "Catumbela",
+    "Ratings": null
   },
   {
-    "id": 20,
-    "username": "VsxtrlC23",
-    "first_name": "Udell",
-    "last_name": "Chantler",
-    "email": "uchantlerj@macromedia.com",
-    "city": "Agbannawag"
+    "Id": 20,
+    "Username": "VsxtrlC23",
+    "First_name": "Udell",
+    "Last_name": "Chantler",
+    "Email": "uchantlerj@macromedia.com",
+    "City": "Agbannawag",
+    "Ratings": null
   },
   {
-    "id": 21,
-    "username": "Usukkdt17",
-    "first_name": "Wendall",
-    "last_name": "Bentley",
-    "email": "wbentleyk@behance.net",
-    "city": "Diaoluoshan"
+    "Id": 21,
+    "Username": "Usukkdt17",
+    "First_name": "Wendall",
+    "Last_name": "Bentley",
+    "Email": "wbentleyk@behance.net",
+    "City": "Diaoluoshan",
+    "Ratings": null
   },
   {
-    "id": 22,
-    "username": "WotkqfB44",
-    "first_name": "Sybil",
-    "last_name": "Daborn",
-    "email": "sdabornl@slashdot.org",
-    "city": "Udanin"
+    "Id": 22,
+    "Username": "WotkqfB44",
+    "First_name": "Sybil",
+    "Last_name": "Daborn",
+    "Email": "sdabornl@slashdot.org",
+    "City": "Udanin",
+    "Ratings": null
   },
   {
-    "id": 23,
-    "username": "Lwpqxet92",
-    "first_name": "Nataline",
-    "last_name": "Pyford",
-    "email": "npyfordm@whitehouse.gov",
-    "city": "Bazi"
+    "Id": 23,
+    "Username": "Lwpqxet92",
+    "First_name": "Nataline",
+    "Last_name": "Pyford",
+    "Email": "npyfordm@whitehouse.gov",
+    "City": "Bazi",
+    "Ratings": null
   },
   {
-    "id": 24,
-    "username": "WiecdsT87",
-    "first_name": "Joshia",
-    "last_name": "Jouaneton",
-    "email": "jjouanetonn@nytimes.com",
-    "city": "Göteborg"
+    "Id": 24,
+    "Username": "WiecdsT87",
+    "First_name": "Joshia",
+    "Last_name": "Jouaneton",
+    "Email": "jjouanetonn@nytimes.com",
+    "City": "G\u00F6teborg",
+    "Ratings": null
   },
   {
-    "id": 25,
-    "username": "Seounii23",
-    "first_name": "Skip",
-    "last_name": "Tither",
-    "email": "stithero@bizjournals.com",
-    "city": "Muroto-misakicho"
+    "Id": 25,
+    "Username": "Seounii23",
+    "First_name": "Skip",
+    "Last_name": "Tither",
+    "Email": "stithero@bizjournals.com",
+    "City": "Muroto-misakicho",
+    "Ratings": null
   },
   {
-    "id": 26,
-    "username": "Nqdiqaj13",
-    "first_name": "Colan",
-    "last_name": "Gaine",
-    "email": "cgainep@tamu.edu",
-    "city": "Zhongtai"
+    "Id": 26,
+    "Username": "Nqdiqaj13",
+    "First_name": "Colan",
+    "Last_name": "Gaine",
+    "Email": "cgainep@tamu.edu",
+    "City": "Zhongtai",
+    "Ratings": null
   },
   {
-    "id": 27,
-    "username": "Ajcodi585",
-    "first_name": "Buck",
-    "last_name": "Boutwell",
-    "email": "bboutwellq@adobe.com",
-    "city": "Qiwen"
+    "Id": 27,
+    "Username": "Ajcodi585",
+    "First_name": "Buck",
+    "Last_name": "Boutwell",
+    "Email": "bboutwellq@adobe.com",
+    "City": "Qiwen",
+    "Ratings": null
   },
   {
-    "id": 28,
-    "username": "KijfclB62",
-    "first_name": "Lorraine",
-    "last_name": "Egglestone",
-    "email": "legglestoner@wiley.com",
-    "city": "Vol’no-Nadezhdinskoye"
+    "Id": 28,
+    "Username": "KijfclB62",
+    "First_name": "Lorraine",
+    "Last_name": "Egglestone",
+    "Email": "legglestoner@wiley.com",
+    "City": "Vol\u2019no-Nadezhdinskoye",
+    "Ratings": null
   },
   {
-    "id": 29,
-    "username": "BsyzgnU66",
-    "first_name": "Chic",
-    "last_name": "Muckleston",
-    "email": "cmucklestons@amazon.com",
-    "city": "Noebana"
+    "Id": 29,
+    "Username": "BsyzgnU66",
+    "First_name": "Chic",
+    "Last_name": "Muckleston",
+    "Email": "cmucklestons@amazon.com",
+    "City": "Noebana",
+    "Ratings": null
   },
   {
-    "id": 30,
-    "username": "Dnaisev79",
-    "first_name": "Duffie",
-    "last_name": "Treasure",
-    "email": "dtreasuret@weibo.com",
-    "city": "Dragomer"
+    "Id": 30,
+    "Username": "Dnaisev79",
+    "First_name": "Duffie",
+    "Last_name": "Treasure",
+    "Email": "dtreasuret@weibo.com",
+    "City": "Dragomer",
+    "Ratings": null
   },
   {
-    "id": 31,
-    "username": "Hryyqgf90",
-    "first_name": "Prudi",
-    "last_name": "Winkett",
-    "email": "pwinkettu@scientificamerican.com",
-    "city": "Arcoverde"
+    "Id": 31,
+    "Username": "Hryyqgf90",
+    "First_name": "Prudi",
+    "Last_name": "Winkett",
+    "Email": "pwinkettu@scientificamerican.com",
+    "City": "Arcoverde",
+    "Ratings": null
   },
   {
-    "id": 32,
-    "username": "DfpqmcF74",
-    "first_name": "Guendolen",
-    "last_name": "Redwing",
-    "email": "gredwingv@angelfire.com",
-    "city": "San Miguel"
+    "Id": 32,
+    "Username": "DfpqmcF74",
+    "First_name": "Guendolen",
+    "Last_name": "Redwing",
+    "Email": "gredwingv@angelfire.com",
+    "City": "San Miguel",
+    "Ratings": null
   },
   {
-    "id": 33,
-    "username": "Sdeiqha58",
-    "first_name": "Alicea",
-    "last_name": "Staggs",
-    "email": "astaggsw@yellowbook.com",
-    "city": "Corona"
+    "Id": 33,
+    "Username": "Sdeiqha58",
+    "First_name": "Alicea",
+    "Last_name": "Staggs",
+    "Email": "astaggsw@yellowbook.com",
+    "City": "Corona",
+    "Ratings": null
   },
   {
-    "id": 34,
-    "username": "Qrurfeg80",
-    "first_name": "Delaney",
-    "last_name": "Loyns",
-    "email": "dloynsx@deliciousdays.com",
-    "city": "Arari"
+    "Id": 34,
+    "Username": "Qrurfeg80",
+    "First_name": "Delaney",
+    "Last_name": "Loyns",
+    "Email": "dloynsx@deliciousdays.com",
+    "City": "Arari",
+    "Ratings": null
   },
   {
-    "id": 35,
-    "username": "Qatvlvs29",
-    "first_name": "Carlie",
-    "last_name": "Brounfield",
-    "email": "cbrounfieldy@marketwatch.com",
-    "city": "Zamostochcha"
+    "Id": 35,
+    "Username": "Qatvlvs29",
+    "First_name": "Carlie",
+    "Last_name": "Brounfield",
+    "Email": "cbrounfieldy@marketwatch.com",
+    "City": "Zamostochcha",
+    "Ratings": null
   },
   {
-    "id": 36,
-    "username": "Btajnyx95",
-    "first_name": "Jules",
-    "last_name": "Giovanni",
-    "email": "jgiovanniz@stanford.edu",
-    "city": "Togitsu"
+    "Id": 36,
+    "Username": "Btajnyx95",
+    "First_name": "Jules",
+    "Last_name": "Giovanni",
+    "Email": "jgiovanniz@stanford.edu",
+    "City": "Togitsu",
+    "Ratings": null
   },
   {
-    "id": 37,
-    "username": "Iwjphn105",
-    "first_name": "Natividad",
-    "last_name": "Adame",
-    "email": "nadame10@wikispaces.com",
-    "city": "Lueng Putu"
+    "Id": 37,
+    "Username": "Iwjphn105",
+    "First_name": "Natividad",
+    "Last_name": "Adame",
+    "Email": "nadame10@wikispaces.com",
+    "City": "Lueng Putu",
+    "Ratings": null
   },
   {
-    "id": 38,
-    "username": "NqdqrmI15",
-    "first_name": "Doll",
-    "last_name": "MacKilroe",
-    "email": "dmackilroe11@tmall.com",
-    "city": "Krajan Tekung"
+    "Id": 38,
+    "Username": "NqdqrmI15",
+    "First_name": "Doll",
+    "Last_name": "MacKilroe",
+    "Email": "dmackilroe11@tmall.com",
+    "City": "Krajan Tekung",
+    "Ratings": null
   },
   {
-    "id": 39,
-    "username": "Rlcoxhs67",
-    "first_name": "Dolores",
-    "last_name": "Rendbaek",
-    "email": "drendbaek12@tripod.com",
-    "city": "Rejoagung"
+    "Id": 39,
+    "Username": "Rlcoxhs67",
+    "First_name": "Dolores",
+    "Last_name": "Rendbaek",
+    "Email": "drendbaek12@tripod.com",
+    "City": "Rejoagung",
+    "Ratings": null
   },
   {
-    "id": 40,
-    "username": "Sxsqtz034",
-    "first_name": "Bealle",
-    "last_name": "Duffin",
-    "email": "bduffin13@intel.com",
-    "city": "Shenavan"
+    "Id": 40,
+    "Username": "Sxsqtz034",
+    "First_name": "Bealle",
+    "Last_name": "Duffin",
+    "Email": "bduffin13@intel.com",
+    "City": "Shenavan",
+    "Ratings": null
   }
 ]

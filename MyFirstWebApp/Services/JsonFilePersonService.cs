@@ -48,8 +48,39 @@ namespace MyFirstWebApp.Services
 
         public void AddRating(int personId, int rating)
         {
-
+            IEnumerable<Person> users = GetPersons();
+            Person query = users.First(x => x.Id == personId);
+            if (query.Ratings == null)
+            {
+                //létrehozzuk az új tömböt az első adattal
+                int[] ratings = new int[] { rating };
+                //átírjuk a személy Ratings tulajdonságát
+                query.Ratings = ratings;
+            }
+            else
+            {
+                //kivesszük az adott személy ratings tömbjét egy változóba
+                List<int> ratings = query.Ratings.ToList();
+                //hozzáadjuk az új rating-et
+                ratings.Add(rating);
+                //a személy régi Ratings tömbjét átírjuk az új ratings tömbbel
+                query.Ratings = ratings.ToArray();
+            }
+            //az összes adatot visszaírjuk a json file-ba
+            //megnyitjuk a file-t, create = mindent kitöröl, és újraír mindent
+            using(FileStream outputStream = File.Open(JsonFileName, FileMode.Create, FileAccess.Write))
+            {
+                JsonSerializer.Serialize<IEnumerable<Person>>(
+                    new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                        {
+                            SkipValidation = true,
+                            Indented = true
+                        }),
+                        users
+                    );
+            }
         }
+
 
     }
 }

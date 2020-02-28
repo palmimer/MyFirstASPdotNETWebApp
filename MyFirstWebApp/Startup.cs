@@ -59,10 +59,13 @@ namespace MyFirstWebApp
             //endpoints are where a url turns into some work
             app.UseEndpoints(endpoints =>
             {
-            endpoints.MapRazorPages();
+                endpoints.MapRazorPages();
                 //adding a new endpoint
+                //an elegant way is to create a controller
                 endpoints.MapControllers();
-            //endpoints.MapGet("/users", (context) => 
+
+            //ez egy megoldás arra, hogy a /users endppoint-on megjelenjen a person-ok összes adata json formátumban
+            //endpoints.MapGet("/userdata", (context) => 
             //        {
             //            //we are collecting all the person objects in a collection with the help of our service
             //            var persons = app.ApplicationServices.GetService<JsonFilePersonService>().GetPersons();

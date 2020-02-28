@@ -9,7 +9,10 @@ using MyFirstWebApp.Services;
 
 namespace MyFirstWebApp.Controllers
 {
-    [Route("[controller]")]
+    //[Route("[controller]")]
+    //this will call the name of the controller: persons, localhost.../persons
+    //this can be changed if we want to use another route, like [Route("[/userdata]")]
+    [Route("userdata")]
     [ApiController]
     public class PersonsController : ControllerBase
     {
@@ -29,5 +32,15 @@ namespace MyFirstWebApp.Controllers
             return PersonService.GetPersons();
         }
 
+        //a method to transfer the rating to the database with the help of the service, returns an OK
+        //a subroute userdata/rate
+        [Route("rate")]
+        //[HttpPatch] "[FromBody]"
+        [HttpGet]
+        public ActionResult Get([FromQuery] int personId, [FromQuery] int rating)
+        {
+            PersonService.AddRating(personId, rating);
+            return Ok();
+        }
     }
 }
