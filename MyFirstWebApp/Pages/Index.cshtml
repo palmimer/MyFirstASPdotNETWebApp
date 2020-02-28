@@ -1,4 +1,5 @@
 ﻿@page
+@using MyFirstWebApp.Components
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -9,17 +10,6 @@
     <p>This is the Web app that I created with ASP.NET Core</p>
 </div>
 
-<div class="card-columns">
-    @foreach (var person in Model.Persons)
-    {
-        <div class="card">
-            
-            <div class="card-body">
-                <div class="card-title">
-                    <h5>Name: @person.Last_name  @person.First_name</h5>
-                </div>
-                <p class="card-text">Username: @person.Username</p>
-            </div>
-        </div>
-    }
-</div>
+@(await Html.RenderComponentAsync<PersonList>(RenderMode.ServerPrerendered))
+
+<script src="_framework/blazor.server.js"></script>

@@ -32,7 +32,7 @@ namespace MyFirstWebApp
             services.AddControllers();
             //ide beírjuk a saját megírt service-ünket (és using MyFirstWebApp.Services)
             services.AddTransient<JsonFilePersonService>();
-            
+            services.AddServerSideBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -64,7 +64,9 @@ namespace MyFirstWebApp
                 //an elegant way is to create a controller
                 endpoints.MapControllers();
 
-            //ez egy megoldás arra, hogy a /users endppoint-on megjelenjen a person-ok összes adata json formátumban
+                endpoints.MapBlazorHub();
+
+            //ez egy megoldás arra, hogy a /userdata endpoint-on megjelenjen a person-ok összes adata json formátumban
             //endpoints.MapGet("/userdata", (context) => 
             //        {
             //            //we are collecting all the person objects in a collection with the help of our service
