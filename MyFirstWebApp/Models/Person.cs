@@ -12,6 +12,12 @@ namespace MyFirstWebApp.Models
         public string Username { get; set; }
         public string First_name { get; set; }
         public string Last_name { get; set; }
+        public string Full_name { get
+            {
+                string fullName = First_name + " " + Last_name;
+                return fullName;
+            }
+        }
         public string Email { get; set; }
         public string City { get; set; }
         public int[] Ratings { get; set; }

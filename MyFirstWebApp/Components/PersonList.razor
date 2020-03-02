@@ -3,13 +3,14 @@
 @using MyFirstWebApp.Services
 @inject JsonFilePersonService PersonService
 
+<!--megjeleníti kártya formátumban az adatokat-->
 <div class="card-columns">
     @foreach (var person in PersonService.GetPersons())
     {
         <div class="card">
             <div class="card-body">
                 <div class="card-title">
-                    <h5>Name: @person.Last_name  @person.First_name</h5>
+                    <h5>Name: @person.Full_name</h5>
                 </div>
                 <p class="card-text">City: @person.City</p>
             </div>
@@ -24,13 +25,17 @@
     }
 </div>
 
+<!--A csillagok megjelenítéséhez kell ez a betűtípus: font-awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Ez egy felugró ablak-->
 @if (selectedPerson != null)
 {
     <div class="modal fade" id="personModal" tabindex="-1" role="dialog" aria-labelledby="personLastName" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="productTitle">@selectedPerson.Last_name</h5>
+                    <h5 class="modal-title" id="productTitle">@selectedPerson.Full_name</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -38,13 +43,36 @@
                 <div class="modal-body">
                     <div class="card">
                         <div class="card-body">
-                            <p class="card-text">@selectedPerson.Last_name @selectedPerson.First_name</p>
+                            <p class="card-text">@selectedPerson.Full_name</p>
                             <p class="card-text">@selectedPerson.City</p>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    Rating
+                    @if (voteCount == 0)
+                    {
+                        <span>Be the first to vote!</span>
+                    }
+                    else
+                    {
+                        <span>@voteCount @voteLabel</span>
+                    }
+                    <!--presentation of stars-->
+                    @for (int i = 1; i < 6; i++)
+                    {
+                        int currentStar = i;
+                        if (i <= currentRating)
+                        {
+                            <!--filled stars-->
+                            <!--fa means font awesome-->
+                            <span class="fa-star fa checked" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                        else
+                        {
+                            <!--empty stars-->
+                            <span class="fa-star fa" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                    }
                 </div>
             </div>
         </div>
@@ -59,5 +87,36 @@
     {
         selectedPersonId = personId;
         selectedPerson = PersonService.GetPersons().First(p => p.Id == selectedPersonId);
+        GetCurrentRating();
+    }
+
+    int currentRating = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    //adds value to the above variables
+    void GetCurrentRating()
+    {
+        if (selectedPerson.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        }
+        else
+        {
+            voteCount = selectedPerson.Ratings.Count();
+            voteLabel = voteCount > 1 ? "votes" : "vote";
+            currentRating = selectedPerson.Ratings.Sum() / voteCount;
+            Console.WriteLine($"{voteCount} {voteLabel}");
+        }
+    }
+
+    //adds the rating to the database
+    void SubmitRating(int rating)
+    {
+        Console.WriteLine($"{selectedPerson.Full_name} received a rating: {rating}");
+        PersonService.AddRating(selectedPersonId, rating);
+        //to update the data, we call this again
+        SelectPerson(selectedPersonId);
     }
 }

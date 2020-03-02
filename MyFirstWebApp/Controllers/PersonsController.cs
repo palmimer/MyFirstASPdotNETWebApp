@@ -11,7 +11,7 @@ namespace MyFirstWebApp.Controllers
 {
     //[Route("[controller]")]
     //this will call the name of the controller: persons, localhost.../persons
-    //this can be changed if we want to use another route, like [Route("[/userdata]")]
+    //this can be changed if we want to use another route, like [Route("userdata")]
     [Route("userdata")]
     [ApiController]
     public class PersonsController : ControllerBase
